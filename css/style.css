@@ -1,4 +1,4 @@
-body{
+html, body{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -32,6 +32,11 @@ nav h2{
 section{
     padding: 20px 0;
     margin: 0 5%;
+}
+
+footer{
+    margin-top: auto;
+    text-align: center;
 }
 
 .navItems{
