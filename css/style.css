@@ -3,6 +3,7 @@ html, body{
     display: flex;
     flex-direction: column;
     font-family: "Catamaran", sans-serif;
+    width: 100%;
 }
 
 h2{
@@ -11,28 +12,30 @@ h2{
     font-size: 1.5rem;
     font-family: "lato";
     font-style: italic;
+    position: center;
 }
 
 h3{
     font-family: "lato";
     font-style: italic;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
 nav{
-    
+    background-color: antiquewhite;
+    position: sticky;
+    top:0px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid black;
+    z-index: 5;
 }
 
 nav h2{
     margin: 0 5%;
 }
 
-section{
-    padding: 20px 0;
-    margin: 0 5%;
-}
 
 footer{
     margin-top: auto;
@@ -53,42 +56,6 @@ footer{
 .navItem a{
     text-decoration: none;
     color: black;
-}
-
-.aboutMe-text-container p{
-    margin-top: 10px;
-    line-height: 20px;
-}
-
-.aboutMe-container{
-    display: flex;
-}
-
-.aboutMeImg{
-    width: 35%;
-    border-radius: 10%;
-    margin-left: 20%;
-}
-
-.projectTitle{
-    line-height: 20px;
-}
-
-.projectTitle h3{
-    display: inline;
-}
-
-.projectImg {
-    width: 40%;
-}
-
-.projectDescription{
-    line-height: 20px;
-}
-
-#skills ul{
-    display: flex;
-    justify-content: space-around;   
 }
 
 .logo {

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap" rel="stylesheet">
     <title>Bart's portofolio</title>
@@ -16,10 +17,12 @@
             <li class="navItem"><a href="#aboutMe">About me</a></li>
             <li class="navItem"><a href="#Projects">Projects</a></li>
             <li class="navItem"><a href="#skills">Skills</a></li>
+            <li class="navItem"><a href="/experience.html">Experience</a></li>
             <li class="navItem"><a href="/contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
+        
         <section id = "aboutMe">
             <div class = "aboutMe-container">
                 <div class = "aboutMe-text-container">
@@ -34,39 +37,68 @@
         </section>
 
         <section id = "Projects">
-            <h2>Projects</h2>
-            <details class= "project">
-                <summary class="projectTitle">
-                    <h3>Pantheon company page</h3>
-                </summary>
-                <p class="projectDescription">My first project creating a mock company page</p>
-                <img src="./resources/Pantheon_shop.png" alt="Company mockup page" class="projectImg">
-                <p><a href="https://pantheonshop.netlify.app">Pantheon link</a></p>
-            </details>
-            <details class="projectTitle">
-                <summary class="projectTitle">
-                    <h3>Adventurerer's career</h3>
-                </summary>
-                <p class="projectDescription">A small Javascript game I have written</p>
-                <img src="" alt="Photo of the game">
-                <p><a href=""></a></p>
-            </details>
+            
+            <div class="Projects-container">
+                <h2>Personal projects</h2>
+
+                <div class="Pantheon popupButton">
+                    <span>Pantheon</span>
+                    <div id="PantheonPop">
+                        <h3>Pantheon company page</h3>
+                        <p class="projectDescription">My first project creating a mock company page</p>
+                        <a href="https://pantheonshop.netlify.app"><img src="./resources/Pantheon_shop.png" alt="Company mockup page" class="projectImg"></a>
+                    </div>
+                </div>
+
+                <div class="JavaAdventure popupButton">
+                    <span>Adventurerer's career Javascript</span>
+                    <div id="JavaAdventurePop">
+                        <h3>Adventurerer's career Javascript</h3>
+                        <p class="projectDescription">A small Javascript game I have written</p>
+                        <img src="./resources/Adventure's carreer JS.png" alt="Photo of the game" class="projectImg">
+                    </div>
+                </div>
+
+                <div class="Dencode popupButton">
+                    <span>Dencode</span>
+                    <div id="DencodePop">
+                        <h3>Dencode</h3>
+                        <p class="projectDescription">A Javascript app which encrypts and decrypts simple pieces of text</p>
+                        <a href="https://dencrypt.netlify.app"><img src="./resources/Dencode.png" alt="Photo of the Site" class="projectImg"></a>
+                    </div>
+                </div>
+
+                <div class="ReactAdventure popupButton">
+                    <span>Adventurerer's career React</span>
+                    <div id="ReactAdventurePop">
+                        <h3>Adventurerer's career React</h3>
+                        <p class="projectDescription">A rewrite of the Javascript game in React/Redux</p>
+                        <img src="./resources/Adventure's carreer React.png" alt="Photo of the game" class="projectImg">
+                    </div>
+                </div>
+                
+                
+            </div>
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML 5</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-            </ul>
+            <div class="skillContainer">
+                <h2>Skills</h2>
+                <div class="skillsImage">
+                    <img src="/resources/html5-icon-png-1.jpg" alt="HTML5, Javascript and CSS" class="Skill3Img"></img>
+                    <img src="/resources/react-icon.jpg" alt="React" class="SkillImg"></img>
+                    <img src="/resources/redux-icon.jpg" alt="Redux" class="SkillImg"></img>
+                    <img src="/resources/Symfony_icon.png" alt="Symfony" class="SkillImg"></img>
+                </div>
+            </div>
         </section>
-
+        <div class="overlay"></div>
     </main>
 
     <footer>
         <p>Time since first upload: <span id="timer"></span> seconds.</p>
     </footer>
     <script src="./Scripts/timer.js"></script>
+    <script src="./Scripts/popup.js"></script>
 </body>
 </html>

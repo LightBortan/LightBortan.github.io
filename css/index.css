@@ -1,0 +1,161 @@
+section{
+    padding: 20px;
+}
+
+span{
+    padding: 5px;
+}
+
+.aboutMe-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.aboutMe-text-container p{
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.aboutMeImg{
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.projectTitle{
+    line-height: 20px;
+}
+
+.projectTitle h3{
+    display: inline;
+}
+
+.projectImg {
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+.projectDescription{
+    line-height: 20px;
+}
+
+#Projects{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.Projects-container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.skillsImage{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Skill3Img{
+    object-fit: contain;
+    width: 15%;
+    height: auto;
+}
+
+.SkillImg{
+    object-fit: contain;
+    width: 5%;
+    height: auto;
+}
+
+.popupButton{
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+/* popup */
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
+    z-index: 99;
+}
+
+#PantheonPop {
+    cursor: auto;
+    position: fixed;
+    right: 30%;
+    top: 65px;
+    display: none;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 100;
+    overflow-y: auto;
+    height: 66%;
+}
+
+#JavaAdventurePop{
+    cursor: auto;
+    position: fixed;
+    right: 30%;
+    top: 65px;
+    display: none;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 100;
+    overflow-y: auto;
+    height: 45%;
+}
+
+#DencodePop{
+    cursor: auto;
+    position: fixed;
+    right: 30%;
+    top: 65px;
+    display: none;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 100;
+    overflow-y: auto;
+    height: 20%;
+}
+
+#ReactAdventurePop{
+    cursor: auto;
+    position: fixed;
+    right: 30%;
+    top: 65px;
+    display: none;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    z-index: 100;
+    overflow-y: auto;
+    height: 48%;
+}
