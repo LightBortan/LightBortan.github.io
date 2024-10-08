@@ -4,6 +4,7 @@ section{
 
 span{
     padding: 5px;
+    text-decoration: underline;
 }
 
 .aboutMe-container{
@@ -165,4 +166,39 @@ span{
     z-index: 100;
     overflow-y: auto;
     height: 53%;
+}
+
+
+@media screen and (max-width: 480px) {
+    .aboutMe-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px 0px;
+    } 
+
+    .aboutMe-text-container{
+        width: 80%;
+        margin-top: 30px;
+    }
+
+    .aboutMe-img {
+        width: 80%;
+    }
+
+    .skillsImage{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skillsImage img{
+        margin-top: 10px;
+    }
+
+    .Skill3Img{
+        width: 30%;
+    }
+
+    .SkillImg{
+        width: 10%
+    }
 }

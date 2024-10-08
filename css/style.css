@@ -40,11 +40,6 @@ p{
     line-height: 1.5rem;
 }
 
-footer{
-    margin-top: auto;
-    text-align: center;
-}
-
 .navItems{
     display: flex;
     align-items: center;
@@ -64,4 +59,11 @@ footer{
 .logo {
     width: 50px;
     height: auto;
+}
+
+@media screen and (max-width: 480px) {
+    .Popup{
+        width: 90%!important;
+        right: 2.5%!important;
+    }
 }
