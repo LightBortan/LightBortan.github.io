@@ -10,6 +10,9 @@ button{
 
 #pdfContainer{
     display: flex;
+}
+
+.pdfContainerContainer{
     margin: 10px 0px;
 }
 

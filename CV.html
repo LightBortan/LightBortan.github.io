@@ -24,121 +24,123 @@
     </nav>
     <main>
         <button onclick="generatePDF()">Download CV</button>
-        <div id="pdfContainer">
-            <div class="left">
-                <h3>Bart Vink</h3>
-                <img src="./resources/PortretFoto.png" alt="Portret foto" class="portretfoto"></img>
-                <div class="leftBlock">
-                    <p><strong>Contact</strong></p>
-                    <p><strong>W.</strong> Hoorn</p>
-                    <p><strong>M.</strong> 06 38 34 34 54</p>
-                    <p><strong>E.</strong> bart.vink<span>@</span>kpnmail.nl</p>
+        <div class="pdfContainerContainer">
+            <div id="pdfContainer">
+                <div class="left">
+                    <h3>Bart Vink</h3>
+                    <img src="./resources/PortretFoto.png" alt="Portret foto" class="portretfoto"></img>
+                    <div class="leftBlock">
+                        <p><strong>Contact</strong></p>
+                        <p><strong>W.</strong> Hoorn</p>
+                        <p><strong>M.</strong> 06 38 34 34 54</p>
+                        <p><strong>E.</strong> bart.vink<span>@</span>kpnmail.nl</p>
+                    </div>
+                    <div class="leftBlock">
+                        <p><strong>Kwaliteiten en vaardigheden</strong></p>
+                        <ul>
+                            <li>Samenwerken</li>
+                            <li>Punctueel</li>
+                            <li>Analytisch</li>
+                            <li>Bescheiden</li>
+                        </ul>
+                    </div>
+                    <div class="leftBlock">
+                        <p><strong>Talen</strong></p>
+                        <ul>
+                            <li>Nederlands</li>
+                            <li>Engels</li>
+                        </ul>
+                    </div>
+                    <div class="leftBlock">
+                        <p><strong>Software vaardigheden</strong></p>
+                        <ul>
+                            <li>HTML, CSS en Javascript</li>
+                            <li>React/Redux</li>
+                            <li>Symfony</li>
+                        </ul>
+                    </div>
+                    <div class="leftBlock">
+                        <p><strong>Cursussen</strong></p>
+                        <ul>
+                            <li>VCA Vol</li>
+                        </ul>
+                    </div>
+                    <div class="leftBlock">
+                        <p><strong>Hobby's & Nevenactiviteiten</strong></p>
+                        <ul>
+                            <li>Zeilen</li>
+                            <li>Gamen</li>
+                            <li>Scouting</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="leftBlock">
-                    <p><strong>Kwaliteiten en vaardigheden</strong></p>
-                    <ul>
-                        <li>Samenwerken</li>
-                        <li>Punctueel</li>
-                        <li>Analytisch</li>
-                        <li>Bescheiden</li>
-                    </ul>
-                </div>
-                <div class="leftBlock">
-                    <p><strong>Talen</strong></p>
-                    <ul>
-                        <li>Nederlands</li>
-                        <li>Engels</li>
-                    </ul>
-                </div>
-                <div class="leftBlock">
-                    <p><strong>Software vaardigheden</strong></p>
-                    <ul>
-                        <li>HTML, CSS en Javascript</li>
-                        <li>React/Redux</li>
-                        <li>Symfony</li>
-                    </ul>
-                </div>
-                <div class="leftBlock">
-                    <p><strong>Cursussen</strong></p>
-                    <ul>
-                        <li>VCA Vol</li>
-                    </ul>
-                </div>
-                <div class="leftBlock">
-                    <p><strong>Hobby's & Nevenactiviteiten</strong></p>
-                    <ul>
-                        <li>Zeilen</li>
-                        <li>Gamen</li>
-                        <li>Scouting</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="right">
-                <div class="rightBlock">
-                    <p><strong>Profiel</strong></p>
-                    <p>Als analytisch persoon los ik de uitdagingen altijd op door mijn brede kennis, goed schakelen en heb overzicht. Ik werk graag in een team met andere om samen tot een mooi resultaat te komen. Zodra ik aan iets begin dan ga ik door tot het af is.</p>
-                </div>
-                <div class="rightBlock">
-                    <p><strong>Werkervaring</strong></p>
-                    <table>
-                        <tr>
-                            <td class="leftTable">Mei 2024 - Heden</td>
-                            <td class="rightTable">
-                                <p>ICTvanafMorgen</p>
-                                <ul>
-                                    <li>Ontwikkelen van een rooster app</li>
-                                </ul>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="leftTable">Sep.2017 - Jun. 2019</td>
-                            <td class="rightTable">
-                                <p>Bo-Mij</p>
-                                <p><strong>Algemeen Magazijnmedewerker</strong></p>
-                                <ul>
-                                    <li>Orders picken </li>
-                                    <li>Controle van orders </li>
-                                </ul>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="rightBlock">
-                    <p><strong>Vrijwilligerswerk</strong></p>
-                    <table>
-                        <tr>
-                            <td class="leftTable">Sep. 2014 - heden</td>
-                            <td class="rightTable">
-                                <p>Scouting Vaandrig Peetoom Vendel</p>
-                                <p><strong>Verkennerleiding</strong></p>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="rightBlock">
-                    <p><strong>Opleidingen</strong></p>
-                    <table>
-                        <tr>
-                            <td class="leftTable">2019-2023</td>
-                            <td class="rightTable"><p>Inholland Eleckrotechniek</p><p>HBO</p></td>
-                        </tr>
-                        <tr>
-                            <td class="leftTable">2016-2017</td>
-                            <td class="rightTable"><p>Inholland Informatica</p><p>HBO</p></td>
-                        </tr>
-                        <tr>
-                            <td class="leftTable">2014-2016</td>
-                            <td class="rightTable"><p>HVA Data Science</p><p>HBO</p></td>
-                        </tr>
-                        <tr>
-                            <td class="leftTable">2013-2014</td>
-                            <td class="rightTable"><p>Inholland Bio Technologie</p><p>HBO</p></td>
-                        </tr>
-                        <tr>
-                            <td class="leftTable">2009-2013</td>
-                            <td class="rightTable"><p>Tabor College Oscar Romero</p><p>HAVO, Diploma behaald</p></td>
-                        </tr>
-                    </table>
+                <div class="right">
+                    <div class="rightBlock">
+                        <p><strong>Profiel</strong></p>
+                        <p>Als analytisch persoon los ik de uitdagingen altijd op door mijn brede kennis, goed schakelen en heb overzicht. Ik werk graag in een team met andere om samen tot een mooi resultaat te komen. Zodra ik aan iets begin dan ga ik door tot het af is.</p>
+                    </div>
+                    <div class="rightBlock">
+                        <p><strong>Werkervaring</strong></p>
+                        <table>
+                            <tr>
+                                <td class="leftTable">Mei 2024 - Heden</td>
+                                <td class="rightTable">
+                                    <p>ICTvanafMorgen</p>
+                                    <ul>
+                                        <li>Ontwikkelen van een rooster app</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="leftTable">Sep.2017 - Jun. 2019</td>
+                                <td class="rightTable">
+                                    <p>Bo-Mij</p>
+                                    <p><strong>Algemeen Magazijnmedewerker</strong></p>
+                                    <ul>
+                                        <li>Orders picken </li>
+                                        <li>Controle van orders </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="rightBlock">
+                        <p><strong>Vrijwilligerswerk</strong></p>
+                        <table>
+                            <tr>
+                                <td class="leftTable">Sep. 2014 - heden</td>
+                                <td class="rightTable">
+                                    <p>Scouting Vaandrig Peetoom Vendel</p>
+                                    <p><strong>Verkennerleiding</strong></p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="rightBlock">
+                        <p><strong>Opleidingen</strong></p>
+                        <table>
+                            <tr>
+                                <td class="leftTable">2019-2023</td>
+                                <td class="rightTable"><p>Inholland Eleckrotechniek</p><p>HBO</p></td>
+                            </tr>
+                            <tr>
+                                <td class="leftTable">2016-2017</td>
+                                <td class="rightTable"><p>Inholland Informatica</p><p>HBO</p></td>
+                            </tr>
+                            <tr>
+                                <td class="leftTable">2014-2016</td>
+                                <td class="rightTable"><p>HVA Data Science</p><p>HBO</p></td>
+                            </tr>
+                            <tr>
+                                <td class="leftTable">2013-2014</td>
+                                <td class="rightTable"><p>Inholland Bio Technologie</p><p>HBO</p></td>
+                            </tr>
+                            <tr>
+                                <td class="leftTable">2009-2013</td>
+                                <td class="rightTable"><p>Tabor College Oscar Romero</p><p>HAVO, Diploma behaald</p></td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
