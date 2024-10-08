@@ -1,0 +1,77 @@
+main{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+button{
+    margin: 20px 0px;
+}
+
+#pdfContainer{
+    display: flex;
+    margin: 10px 0px;
+}
+
+.leftBlock{
+    margin: 10px 0px 10px 10%
+}
+
+.left{
+    background-color: rgb(155, 208, 226);
+    width: 33.3%;
+    min-height: 1122px;
+    height: 100%;
+}
+
+.left h3{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 30%;
+    color: white;
+}
+
+.portretfoto{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+
+.right {
+    background-color: rgb(236, 236, 236);
+    width: 66.7%;
+    padding-top: 100px;
+}
+
+.rightBlock{
+    margin: 10px 5% 10px 5%
+}
+
+strong{
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+}
+
+.leftBlock ul, 
+table ul{
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+tr{
+    height: 70px;
+}
+
+td.leftTable{
+    width: 45%;
+}
+
+td.rightTable{
+    width: 55%;
+    margin-bottom: 20px;
+}
