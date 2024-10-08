@@ -12,7 +12,7 @@ The primary purpose of this website is to present my professional portfolio and 
 - **Projects**: A showcase of my significant projects with descriptions, technologies used, and links to demos or source code.
 - **Work Experience**: A detailed overview of my past work experience, including job titles, responsibilities, and achievements.
 - **Downloadable CV**: A downloadable version of my latest resume in PDF format.
-- **Contact Form**: A form for employers to reach out to me directly.
+- **Contact Page**: A with ways for employers to reach out to me directly.
 
 ## Technologies Used
 
