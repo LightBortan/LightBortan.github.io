@@ -1,5 +1,5 @@
 section{
-    padding: 20px;
+    padding: 30px 20px;
 }
 
 span{
@@ -8,8 +8,16 @@ span{
 
 .aboutMe-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 10px 0px;
+}
+
+.aboutMe-img {
+    width: 15%;
+}
+
+.aboutMe-text-container{
+    width: 30%;
 }
 
 .aboutMe-text-container p{
@@ -20,9 +28,7 @@ span{
 .aboutMeImg{
     border-radius: 10%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+    width: 100%;
 }
 
 .projectTitle{
@@ -44,7 +50,7 @@ span{
 }
 
 #Projects{
-    background-color: antiquewhite;
+    background-color: lightblue;
     display: flex;
     justify-content: center;
 }
@@ -58,12 +64,13 @@ span{
 .skillContainer{
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
 }
 
 .skillsImage{
     display: flex;
     justify-content: space-around;
+    margin-top: 2%;
 }
 
 .Skill3Img{

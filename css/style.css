@@ -23,7 +23,7 @@ h3{
 }
 
 nav{
-    background-color: antiquewhite;
+    background-color: lightblue;
     position: sticky;
     top:0px;
     display: flex;
@@ -36,6 +36,9 @@ nav h2{
     margin: 0 5%;
 }
 
+p{
+    line-height: 1.5rem;
+}
 
 footer{
     margin-top: auto;
