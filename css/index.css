@@ -270,10 +270,12 @@ table{
     }
 
     .Skill3Img{
-        width: 30%;
+        width: 90%;
     }
-
     .SkillImg{
-        width: 10%
+        width: 30%
+    }
+    .skillDiv{
+        width: 80%;
     }
 }
