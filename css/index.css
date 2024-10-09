@@ -76,19 +76,94 @@ span{
 
 .Skill3Img{
     object-fit: contain;
-    width: 15%;
-    height: auto;
+    width: 75%;
+    height: 200px;
 }
 
 .SkillImg{
     object-fit: contain;
-    width: 5%;
-    height: auto;
+    width: 25%;
+    height: 200px;
 }
 
 .popupButton{
     line-height: 2rem;
     cursor: pointer;
+}
+
+.skillDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25% ;
+}
+
+table, th, td {
+    border: 1px solid black
+}
+
+td{
+    width: 50%;
+}
+
+table{
+    width: 90%;
+}
+
+.bar{
+    width: 90%;
+    background-color: rgb(233, 233, 233);
+    
+}
+
+.html{
+    background-color: lightpink;
+    z-index: 1;
+    width: 80%;
+    height: 20px;
+}
+
+.css{
+    background-color: lightblue;
+    z-index: 1;
+    width: 60%;
+    height: 20px;
+}
+
+.js{
+    background-color: lightgoldenrodyellow;
+    z-index: 1;
+    width: 80%;
+    height: 20px;
+}
+
+.React{
+    background-color: lightblue;
+    z-index: 1;
+    width: 50%;
+    height: 20px;
+}
+
+.Redux{
+    background-color: lightsteelblue;
+    z-index: 1;
+    width: 40%;
+    height: 20px;
+}
+
+.Symfony{
+    background-color: lightseagreen;
+    z-index: 1;
+    width: 60%;
+    height: 20px;
+}
+
+.Symfony p{
+    color: white;
+}
+
+.bar div p{
+    margin: auto 5px
 }
 
 /* popup */
