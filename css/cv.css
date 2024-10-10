@@ -4,6 +4,10 @@ main{
     margin-right: auto;
 }
 
+nav h2{
+    margin: 10px auto 15px 5%;
+}
+
 button{
     margin: 20px 0px;
 }
@@ -77,6 +81,12 @@ td.leftTable{
 td.rightTable{
     width: 55%;
     margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+    .h2, h2 {
+        font-size: 2rem;
+    }
 }
 
 
