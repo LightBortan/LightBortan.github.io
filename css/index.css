@@ -95,7 +95,7 @@ span{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 25% ;
+    width: 18rem ;
 }
 
 table, th, td {
@@ -166,83 +166,9 @@ table{
     margin: auto 5px
 }
 
-/* popup */
-
-.overlay {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent background */
-    z-index: 99;
+h2.project{
+    margin: 5px auto;
 }
-
-#PantheonPop {
-    cursor: auto;
-    position: fixed;
-    right: 30%;
-    top: 65px;
-    display: none;
-    width: 40%;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    z-index: 100;
-    overflow-y: auto;
-    height: 66%;
-}
-
-#JavaAdventurePop{
-    cursor: auto;
-    position: fixed;
-    right: 30%;
-    top: 65px;
-    display: none;
-    width: 40%;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    z-index: 100;
-    overflow-y: auto;
-    height: 50%;
-}
-
-#DencodePop{
-    cursor: auto;
-    position: fixed;
-    right: 30%;
-    top: 65px;
-    display: none;
-    width: 40%;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    z-index: 100;
-    overflow-y: auto;
-    height: 20%;
-}
-
-#ReactAdventurePop{
-    cursor: auto;
-    position: fixed;
-    right: 30%;
-    top: 65px;
-    display: none;
-    width: 40%;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-    z-index: 100;
-    overflow-y: auto;
-    height: 53%;
-}
-
 
 @media screen and (max-width: 480px) {
     .aboutMe-container{
@@ -255,6 +181,10 @@ table{
     .aboutMe-text-container{
         width: 80%;
         margin-top: 30px;
+    }
+
+    .card-container{
+        flex-direction: column;
     }
 
     .aboutMe-img {
