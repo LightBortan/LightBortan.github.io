@@ -56,6 +56,10 @@ span{
     justify-content: center;
 }
 
+h2{
+    margin: 0px auto;
+}
+
 .Projects-container{
     display: flex;
     flex-direction: column;
@@ -72,6 +76,7 @@ span{
     display: flex;
     justify-content: space-around;
     margin-top: 2%;
+    flex-wrap: wrap;
 }
 
 .Skill3Img{
@@ -86,11 +91,6 @@ span{
     height: 200px;
 }
 
-.popupButton{
-    line-height: 2rem;
-    cursor: pointer;
-}
-
 .skillDiv{
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@ span{
 }
 
 table, th, td {
-    border: 1px solid black
+    border: 1px solid black!important;
 }
 
 td{
@@ -112,8 +112,7 @@ table{
 
 .bar{
     width: 90%;
-    background-color: rgb(233, 233, 233);
-    
+    background-color: rgb(218, 217, 217);
 }
 
 .html{
@@ -170,6 +169,25 @@ h2.project{
     margin: 5px auto;
 }
 
+.ProjectCardContainers{
+    display:flex;
+    flex-direction: row;
+}
+
+.pProjects{
+    margin: auto 0px;
+}
+
+/* tablet */
+@media  screen and (max-width: 1024px) {
+    .ProjectCardContainers{
+        flex-direction: column;
+    }
+    .aboutMe-img{
+        width: 30%;
+    } 
+}
+
 @media screen and (max-width: 480px) {
     .aboutMe-container{
         display: flex;
@@ -185,16 +203,17 @@ h2.project{
 
     .card-container{
         flex-direction: column;
+        margin: 0px auto;
     }
 
     .aboutMe-img {
         width: 80%;
     }
-
     .skillsImage{
         flex-direction: column;
         align-items: center;
     }
+    
     .skillsImage img{
         margin-top: 10px;
     }
