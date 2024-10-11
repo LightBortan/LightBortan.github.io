@@ -41,6 +41,7 @@ p{
 
 .navItems{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin: 0;
     margin-left: auto;
@@ -60,9 +61,17 @@ p{
     height: auto;
 }
 
+
+.bg-blue{
+    background-color: lightblue;
+}
+
+.bg-grey{
+    background-color: rgb(236, 236, 236);
+}
+
 @media screen and (max-width: 480px) {
-    .Popup{
-        width: 90%!important;
-        right: 2.5%!important;
+    .navItem{
+        padding: 10px;
     }
 }
